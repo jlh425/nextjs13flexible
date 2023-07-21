@@ -129,7 +129,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
                 type="url"
                 title="Website URL"
                 state={form.liveSiteUrl}
-                placeholder="https://jsmastery.pro"
+                placeholder="https://jon3dportfolio.netlify.app/"
                 setState={(value) => handleStateChange('liveSiteUrl', value)}
             />
 
@@ -137,7 +137,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
                 type="url"
                 title="GitHub URL"
                 state={form.githubUrl}
-                placeholder="https://github.com/adrianhajdin"
+                placeholder="https://github.com/jlh425?tab=repositories"
                 setState={(value) => handleStateChange('githubUrl', value)}
             />
 
